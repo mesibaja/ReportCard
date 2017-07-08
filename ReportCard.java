@@ -7,90 +7,90 @@ public class ReportCard {
 
     private static final String PETRA = "Petra";
     // Student's name
-    private String mStudentsName;
+    private String mstudentsName;
     // Student's class
-    private String mStudentsClass;
+    private String mstudentsClass;
     // French grade, int 1-5 (1 = fail, 5 = excellent) following Hungarian grading system
-    private int mFrenchGrade;
+    private int mfrenchGrade;
     // Art grade, int 1-5 (1 = fail, 5 = excellent) following Hungarian grading system
-    private int mArtGrade;
+    private int martGrade;
     // Recreation grade, int 1-5 (1 = fail, 5 = excellent) following Hungarian grading system
-    private int mRecreationGrade;
+    private int mrecreationGrade;
     // Music grade, int 1-5 (1 = fail, 5 = excellent) following Hungarian grading system
-    private int mMusicGrade;
+    private int mmusicGrade;
 
     // Constant is PETRA, myself, who is the only admin of this report card.
     // Grammar grade, int 1-5 (1 = fail, 5 = excellent) following Hungarian grading system
-    private int mGrammarGrade;
+    private int mgrammarGrade;
 
     public ReportCard(String studentsName, String studentsClass, int frenchGrade, int artGrade,
                       int recreationGrade, int musicGrade, int grammarGrade) {
-        this.mStudentsName = studentsName;
-        this.mStudentsClass = studentsClass;
-        this.mFrenchGrade = frenchGrade;
-        this.mArtGrade = artGrade;
-        this.mRecreationGrade = recreationGrade;
-        this.mMusicGrade = musicGrade;
-        this.mGrammarGrade = grammarGrade;
+        this.mstudentsName = studentsName;
+        this.mstudentsClass = studentsClass;
+        this.mfrenchGrade = frenchGrade;
+        this.martGrade = artGrade;
+        this.mrecreationGrade = recreationGrade;
+        this.mmusicGrade = musicGrade;
+        this.mgrammarGrade = grammarGrade;
     }
 
 
     // Getter and Setter methods to get and set information what we would like to present
-    public String getmStudentsName() {
+    public String getstudentsName() {
 
-        return mStudentsName;
+        return mstudentsName;
     }
 
-    public void setmStudentsName(String StudentsName) {
-        this.mStudentsName = StudentsName;
+    public void setmStudentsName(String studentsName) {
+        this.mstudentsName = studentsName;
     }
 
-    public String getmStudentsClass() {
-        return mStudentsClass;
+    public String getstudentsClass() {
+        return mstudentsClass;
     }
 
-    public void setmStudentsClass(String StudentsClass) {
-        this.mStudentsClass = StudentsClass;
+    public void setstudentsClass(String studentsClass) {
+        this.mstudentsClass = studentsClass;
     }
 
-    public int getmFrenchGrade() {
-        return mFrenchGrade;
+    public int getfrenchGrade() {
+        return mfrenchGrade;
     }
 
-    public void setmFrenchGrade(int FrenchGrade) {
-        this.mFrenchGrade = FrenchGrade;
+    public void setfrenchGrade(int frenchGrade) {
+        this.mfrenchGrade = 5;
     }
 
-    public int getmArtGrade() {
-        return mArtGrade;
+    public int getartGrade() {
+        return martGrade;
     }
 
-    public void setmArtGrade(int ArtGrade) {
-        this.mArtGrade = ArtGrade;
+    public void setartGrade(int artGrade) {
+        this.martGrade = 5;
     }
 
-    public int getmRecreationGrade() {
-        return mRecreationGrade;
+    public int getrecreationGrade() {
+        return mrecreationGrade;
     }
 
-    public void setmRecreationGrade(int RecreationGrade) {
-        this.mRecreationGrade = RecreationGrade;
+    public void setrecreationGrade(int recreationGrade) {
+        this.mrecreationGrade = 3;
     }
 
-    public int getmMusicGrade() {
-        return mMusicGrade;
+    public int getmusicGrade() {
+        return mmusicGrade;
     }
 
-    public void setmMusicGrade(int MusicGrade) {
-        this.mMusicGrade = MusicGrade;
+    public void setmusicGrade(int musicGrade) {
+        this.mmusicGrade = 4;
     }
 
-    public int getmGrammarGrade() {
-        return mGrammarGrade;
+    public int getgrammarGrade() {
+        return mgrammarGrade;
     }
 
-    public void setmGrammarGrade(int GrammarGrade) {
-        this.mGrammarGrade = GrammarGrade;
+    public void setgrammarGrade(int grammarGrade) {
+        this.mgrammarGrade = 5;
     }
 
     // toString() method shows the collection of information for this class,
@@ -99,12 +99,12 @@ public class ReportCard {
     @Override
     public String toString() {
         return "Petra: " + PETRA + "\n"
-                + "Student's Name: " + mStudentsName + "\n"
-                + "Student's Class: " + mStudentsClass + "\n"
-                + "French Grade: " + mFrenchGrade + "\n"
-                + "Art Grade: " + mArtGrade + "\n"
-                + "Recreation Grade: " + mRecreationGrade + "\n"
-                + "Music Grade: " + mMusicGrade + "\n"
-                + "Grammar Grade: " + mGrammarGrade;
+                + "Student's Name: " + mstudentsName + "\n"
+                + "Student's Class: " + mstudentsClass + "\n"
+                + "French Grade: " + mfrenchGrade + "\n"
+                + "Art Grade: " + martGrade + "\n"
+                + "Recreation Grade: " + mrecreationGrade + "\n"
+                + "Music Grade: " + mmusicGrade + "\n"
+                + "Grammar Grade: " + mgrammarGrade;
     }
 }
